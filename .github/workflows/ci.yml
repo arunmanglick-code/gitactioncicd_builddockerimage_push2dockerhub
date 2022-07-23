@@ -50,6 +50,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
+        tags: user/app:latest
 
     # https://github.com/mr-smithers-excellent/docker-build-push
     # - name: Build and Push Docker Image 
