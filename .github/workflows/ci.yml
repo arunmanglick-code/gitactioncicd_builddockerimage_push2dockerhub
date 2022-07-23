@@ -39,7 +39,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v5  
       with:
         image: 452112/amdockerrepo
-        tags: v1, latest
+        tags: v1.0
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
