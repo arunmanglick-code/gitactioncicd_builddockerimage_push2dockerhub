@@ -37,11 +37,11 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         
-    - name: Build and push my image
-        uses: docker/build-push-action@v3
-        with:
-          push: true
-          # tags: user/app:latest 
+    # - name: Build and push my image
+    #     uses: docker/build-push-action@v3
+    #     with:
+    #       push: true
+    #       # tags: user/app:latest 
 
     - name: Build with Gradle
       run: ./gradlew build
