@@ -35,7 +35,7 @@ jobs:
     #   run: ./gradlew build
 
     - name: Show Docker Credentials
-      run: [ arunmanglick@gmail.com ]
+      run: echo arunmanglick@gmail.com 
 
     # # https://github.com/mr-smithers-excellent/docker-build-push
     # - name: Build and Push Docker Image 
