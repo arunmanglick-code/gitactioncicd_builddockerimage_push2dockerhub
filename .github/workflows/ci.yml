@@ -13,7 +13,6 @@ on:
 jobs:
   build-java-am:
     runs-on: [ ubuntu-latest ]  # This is to just run on ubuntu    
-    environment: DEV
     # Below is to run on all three
     # runs-on: ${{matrix.os}}
     # strategy: 
