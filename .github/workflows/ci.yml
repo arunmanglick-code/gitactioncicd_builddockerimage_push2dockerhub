@@ -35,8 +35,7 @@ jobs:
       run: ./gradlew build
 
     - name: Show Docker Credentials
-      run: echo ${{ secrets.DOCKER_USERNAME }} 
-      run: echo ${{ secrets.DOCKER_PASSWORD }} 
+      run: echo ${{ secrets.DOCKER_USERNAME }} | echo ${{ secrets.DOCKER_PASSWORD }} 
 
     # https://github.com/mr-smithers-excellent/docker-build-push
     - name: Build and Push Docker Image 
