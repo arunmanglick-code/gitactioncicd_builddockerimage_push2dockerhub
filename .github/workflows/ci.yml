@@ -33,7 +33,7 @@ jobs:
     # - name: Build with Gradle
     #   run: ./gradlew build
 
-    - name: Show Docker Credentials
+    - name: Show Docker Credential
       run: echo ${{ secrets.DOCKER_USERNAME }}
 
     # - name: Login to Docker Hub
